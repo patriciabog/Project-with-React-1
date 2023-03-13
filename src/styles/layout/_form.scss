@@ -1,0 +1,36 @@
+.form {
+    margin-top: 30px;
+    display: flex;
+   justify-content: space-between;
+
+    &__quote-filter {
+        margin: 10px;
+        color: #a349a4;
+        font-size: 1rem; 
+    }
+
+    &__search {  
+       margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        width: 8rem;
+        border: 2px solid #ddd;
+        border-radius: 0.5rem;
+        background-color: #f8f8f8;
+        outline: none;
+        transition: all ease 0.3s;
+    
+        &:focus {
+            border-color: #a349a4;
+            background-color: #fff;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+    
+    }
+
+    &__caracter-filter {
+      font-size: 1rem;
+       margin: 10px;
+       color: #a349a4;
+}
+}
